@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.form__field{
+    flex: 1 1 100%;
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.form__field:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form__btn{
+    display: block;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #7FA8C7;
+    cursor: pointer;
+}
